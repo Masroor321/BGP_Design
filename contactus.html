@@ -1,0 +1,156 @@
+<html>
+    <head>
+       <meta charset="UTF 8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+       <title>Contact Us</title>
+       <link href="redstore.css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+       <style>
+           #payment{
+               font-weight: 10px;
+               color: blue;
+               font-size: 28px;
+           }
+           #payment:hover{
+               color: red;
+           }
+           #paragraph{
+              font-weight: 10px;
+               color: red;
+               font-size: 15px;
+               margin-top: -30px;
+           }
+           #paragraph:hover{
+               color: black;
+           }
+           
+        </style>
+    </head>
+    <body>
+       
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+                <a href="redstore.html"><img src="images/bhagalpurlogo.png" width="60px" height="50px"></a>
+                <a href="http://facebook.com"><img id="icon" src="images/icon1.png"></a>
+                <a href="http://twitter.com"><img id="icon" src="images/icon3.png"></a>
+                <a href="http://instagram.com"><img id="icon" src="images/icon4.png"></a>
+                <a href="images/whatsapp.jpg"><img id="icon" src="images/icon5.png"></a>
+            </div>
+            <nav>
+                <ul id="Menuitem">
+                    <li><a href="redstore.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Accounts</a></li>  
+                </ul>
+            </nav>
+                <a href=""><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        
+<!-----------------account-page------------------>
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/image1.png" width="100%">
+                    </div>
+                    <div class="col-2">
+                            <div class="form-container">
+                                <div class="form-btn">
+                                    <h1 id="payment">Contact Details...!</h1><br><br>
+                                    <p id="paragraph">what's App No. :- 8002985668</p><br>
+                                    <p id="paragraph">Mobile No. :- 7488422415</p><br><br>
+                                    <p id="paragraph">Email Id :- mmh.masroor@gmail.com</p>  
+                                </div>
+                                
+                            </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+        
+<!-----------------footer------------------>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Visit My Bhagalpur Desigen</h3>
+                        <p>You can easly purchesed<br> our my website..!</p>
+                        <div class="app-logo">
+                            <img src="images/fashion.png">
+                            <img src="images/fashions.jpg">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/bhagalpurlogo.png">
+                        <p>Welcome to my sky fashion website and easly searching treding fashion..!</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                        <li>Coopons</li>
+                         <li>Blog Post</li>
+                          <li>Return Policy</li>
+                           <li>Join Affiliated</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                        <li>Facebook</li>
+                         <li>Twitter</li>
+                          <li>Instagram</li>
+                           <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copy-right">Copyright 2020 Bhagalpur Desigen</p>
+            </div>
+        </div>
+<!--------------js for toggle menu---------------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(Menuitem.style.maxHeight == "0px"){
+                    Menuitem.style.maxHeight = "200px";
+                }
+                else
+                    {
+                        Menuitem.style.maxHeight = "0px";
+                    }
+            }
+        </script> 
+ <!--------------js for toggle menu---------------->
+        <script>
+        
+            var LoginForm = document.getElementById("LoginForm");
+            var RegisterForm = document.getElementById("RegisterForm");
+            var Indicator = document.getElementById("Indicator");
+        
+            function register(){
+                
+                RegisterForm.style.transform = "translateX(0px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(100px)";
+            }
+            
+            function login(){
+                
+                RegisterForm.style.transform = "translateX(300px)";
+                LoginForm.style.transform = "translateX(300px)";
+                Indicator.style.transform = "translateX(0px)";
+            }
+        
+        
+        
+        </script>>       
+       
+    </body>
+</html>

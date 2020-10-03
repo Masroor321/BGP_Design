@@ -1,0 +1,120 @@
+<html>
+    <head>
+       <meta charset="UTF 8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+       <title>About Us</title>
+       <link href="redstore.css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <style>
+            .about-page{
+                background-color: aqua;
+            }
+            #heading{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            #paragraph{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+                <a href="redstore.html"><img src="images/bhagalpurlogo.png" width="60px" height="50px"></a>
+                <a href="http://facebook.com"><img id="icon" src="images/icon1.png"></a>
+                <a href="http://twitter.com"><img id="icon" src="images/icon3.png"></a>
+                <a href="http://instagram.com"><img id="icon" src="images/icon4.png"></a>
+                <a href="images/whatsapp.jpg"><img id="icon" src="images/icon5.png"></a>
+            </div>
+            <nav>
+                <ul id="Menuitem">
+                    <li><a href="redstore.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>  
+                    <li><a href="account.html">Accounts</a></li>  
+                </ul>
+            </nav>
+                <a href=""><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        
+<!-----------------about-page------------------>
+        <div class="about-page">
+            <div class="container">
+                <h1 id="heading">This is my first E-Commerce Website...!</h1>
+                <p id="paragraph">When you have a great story about how your product or service was built to change lives, share it. The "About Us" page is a great place for it to live, too. Good stories humanize your brand, providing context and meaning for your product. What’s more, good stories are sticky -- which means people are more likely to connect with them and pass them on.
+
+Yellow Leaf Hammocks tells users about its product by describing how the hammocks empower artisan weavers and their families. The company breaks down different pieces of the story into sections that combine words and easily digestible graphics, painting a picture instead of big chunks of text. They're clear about why they're different: "Not a Charity," the page reads. And then: "This is the basis for a brighter future, built on a hand up, not a handout."
+
+Every company has a story to tell, so break out your storytelling skills from that random English class you took years ago and put them to work on your "About Us" page. Using descriptive and emotive copy and gorgeous graphics, an "About Us" page with a story works harder for your business than a generic one...!</p>
+           <p>When you have a great story about how your product or service was built to change lives, share it. The "About Us" page is a great place for it to live, too. Good stories humanize your brand, providing context and meaning for your product. What’s more, good stories are sticky -- which means people are more likely to connect with them and pass them on.
+
+Yellow Leaf Hammocks tells users about its product by describing how the hammocks empower artisan weavers and their families. The company breaks down different pieces of the story into sections that combine words and easily digestible graphics, painting a picture instead of big chunks of text. They're clear about why they're different: "Not a Charity," the page reads. And then: "This is the basis for a brighter future, built on a hand up, not a handout."
+
+Every company has a story to tell, so break out your storytelling skills from that random English class you took years ago and put them to work on your "About Us" page. Using descriptive and emotive copy and gorgeous graphics, an "About Us" page with a story works harder for your business than a generic one...!</p>
+            </div>
+        </div>
+        
+<!-----------------footer------------------>
+       <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Visit My Bhagalpur Desigen</h3>
+                        <p>You can easly purchesed<br> our my website..!</p>
+                        <div class="app-logo">
+                            <img src="images/fashion.png">
+                            <img src="images/fashions.jpg">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/bhagalpurlogo.png">
+                        <p>Welcome to my sky fashion website and easly searching treding fashion..!</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                        <li>Coopons</li>
+                         <li>Blog Post</li>
+                          <li>Return Policy</li>
+                           <li>Join Affiliated</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                        <li>Facebook</li>
+                         <li>Twitter</li>
+                          <li>Instagram</li>
+                           <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <p class="copy-right">Copyright 2020 Bhagalpur Desigen</p>
+            </div>
+        </div>
+<!--------------js for toggle menu---------------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(Menuitem.style.maxHeight == "0px"){
+                    Menuitem.style.maxHeight = "200px";
+                }
+                else
+                    {
+                        Menuitem.style.maxHeight = "0px";
+                    }
+            }
+        </script> 
+ 
+    </body>
+</html>

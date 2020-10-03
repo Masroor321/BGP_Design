@@ -1,0 +1,142 @@
+<html>
+    <head>
+       <meta charset="UTF 8">
+       <meta name="viewport" content="width-device-width, initial-scale=1.0">
+       <title>All Products - Responsive Website</title>
+       <link href="redstore.css" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+       
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+                <a href="redstore.html"><img src="images/bhagalpurlogo.png" width="60px" height="50px"></a>
+                <a href="http://facebook.com"><img id="icon" src="images/icon1.png"></a>
+                <a href="http://twitter.com"><img id="icon" src="images/icon3.png"></a>
+                <a href="http://instagram.com"><img id="icon" src="images/icon4.png"></a>
+                <a href="images/whatsapp.jpg"><img id="icon" src="images/icon5.png"></a>
+            </div>
+            <nav>
+                <ul id="Menuitem">
+                    <li><a href="redstore.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                    <li><a href="account.html">Accounts</a></li>  
+                </ul>
+            </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        
+<!-----------------cart items details------------------>
+        <div class="small-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/g81.jpg">
+                        
+                        <div>
+                            <p>Beige Cotton Blend <br>Unstitched Dress Material</p>
+                            <small>Price: 550.00Rs</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>550.00Rs</td>
+                </tr>
+                
+            </table>  
+            
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>550.00Rs</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>35.00Rs</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>585.00Rs</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="payment.html" class="btn">Go To Payment</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>  
+             
+        </div>   
+       
+<!-----------------footer------------------>
+       <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Visit My Bhagalpur Desigen</h3>
+                        <p>You can easly purchesed<br> our my website..!</p>
+                        <div class="app-logo">
+                            <img src="images/fashion.png">
+                            <img src="images/fashions.jpg">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/bhagalpurlogo.png">
+                        <p>Welcome to my sky fashion website and easly searching treding fashion..!</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                        <li>Coopons</li>
+                         <li>Blog Post</li>
+                          <li>Return Policy</li>
+                           <li>Join Affiliated</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                        <li>Facebook</li>
+                         <li>Twitter</li>
+                          <li>Instagram</li>
+                           <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copy-right">Copyright 2020 Bhagalpur Desigen</p>
+            </div>
+        </div>
+<!--------------js for toggle menu---------------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(Menuitem.style.maxHeight == "0px"){
+                    Menuitem.style.maxHeight = "200px";
+                }
+                else
+                    {
+                        Menuitem.style.maxHeight = "0px";
+                    }
+            }
+        </script> 
+        
+       
+    </body>
+</html>
